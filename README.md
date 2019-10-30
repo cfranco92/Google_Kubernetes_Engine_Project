@@ -49,3 +49,9 @@ The name of containers comes from standardized cargo containers that are used in
 These containers have been a real revolution in the world of transport, reducing costs, loading / unloading times, damage to goods, etc.
 
 Docker takes this same concept to the world of software, allowing to encapsulate any architecture, making it a portable and self-sufficient container, so that it can be manipulated through established operations and run consistently on any hardware.
+
+---
+## What is Docker?
+Docker is an open source technology, developed in the GO programming language, using the Apache 2.0 license (we can deploy our application on any server, without our source code being open source).
+
+Docker uses the features of UNIX operating systems to manage containers and the deployment of our applications in the memory area of the Linux operating system.
