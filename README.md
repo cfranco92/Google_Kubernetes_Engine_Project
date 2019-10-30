@@ -41,3 +41,11 @@ This tool has the following functionalities:
 * Amazon Elastic Container Service for Kubernetes
 * IBM Cloud Kubernetes Service
 * Azure Kubernetes Service (AKS)
+
+---
+## What are the containers?
+The name of containers comes from standardized cargo containers that are used in ships, trucks and trains, which allow loading, unloading and stacking containers over long distances, facilitating the transfer from one means of transport to another.
+
+These containers have been a real revolution in the world of transport, reducing costs, loading / unloading times, damage to goods, etc.
+
+Docker takes this same concept to the world of software, allowing to encapsulate any architecture, making it a portable and self-sufficient container, so that it can be manipulated through established operations and run consistently on any hardware.
