@@ -55,3 +55,44 @@ Docker takes this same concept to the world of software, allowing to encapsulate
 Docker is an open source technology, developed in the GO programming language, using the Apache 2.0 license (we can deploy our application on any server, without our source code being open source).
 
 Docker uses the features of UNIX operating systems to manage containers and the deployment of our applications in the memory area of the Linux operating system.
+
+---
+## Basic Docker Commands
+### Spring framework Petclinic
+#### Example instructions
+*   ```
+    ./mvnw jetty:run-war
+    ```
+*   ```
+    docker run -p 8080:8080 springcommunity/spring-framework-petclinic
+    ```
+
+### Docker Commands
+* Download and save the images of our application:
+    ```
+    docker pull
+    ```
+* List the images downloads on our machine: 
+    ```
+    docker images
+    ```
+* List the containers running on our machine (id, port, etc):
+    ```
+    docker ps
+    ```
+* List the containers turned off of our machine:
+    ```
+    docker ps -a
+    ```
+* Enter our container and list the folders within it:
+    ```
+    docker exec
+    ```
+* Stop the execution of our container:
+    ```
+    docker stop
+    ```
+* Clear our container:
+    ```
+    docker rm
+    ```
